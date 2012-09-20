@@ -14,10 +14,7 @@
 		* }
 		*
 		********************************************/		
-		var cH = $(this[0]).height();
 		var VcH = $(window).height() - $(this[0]).offset().top; // высота видимой части контейнера
-		console.log($(this[0]));
-		//console.log(VcH + ' | ' + cH);
 		var cW = $(this[0]).width(); // ширина контейнера (должна передаваться в конструктор)
 		cW--;
 		this.config = $.extend({
@@ -44,12 +41,13 @@
 		
 		var render = function() {
 			
-			console.log(1);
+			
 			var maxQ = Math.floor((cW-(Math.floor(cW/config.minW-1)*config.spc))/config.minW); // максимальное количество горизонтально ориентированных изображений влезающее в строку
 			var rowN = 0;
 			var top = 0;
-			while (config.Images.length != 0) {
-				
+			var prevIndex = 0;
+			while (prevIndex < (config.Images.length-1)) {
+				console.log(prevIndex);
 				rowN++;
 				var prevRowQ = 0; // длина предыдущей строки
 				var curRowQ = 0; // длина текущей строки
@@ -59,13 +57,14 @@
 				var row;
 				var last = false;
 				if(rowN==1 && config.fLine) {
-					row = (cW<maxQ) ? config.Images.splice(0,1) : config.Images.splice(0,2); // определяем одно или два изображения будут в первой строке
+					row = (cW<maxQ) ? config.Images.slice(0,1) : config.Images.slice(0,2); // определяем одно или два изображения будут в первой строке
 				}
-				else if (config.Images.length > curRowQ) row = config.Images.splice(0, curRowQ);
+				else if ((config.Images.length-prevIndex) > curRowQ) row = config.Images.slice(prevIndex, (curRowQ+prevIndex));
 				else {
-					row = config.Images.splice(0,config.Images.length);
+					row = config.Images.slice(prevIndex,config.Images.length);
 					last = true;
 				}
+				prevIndex += curRowQ;
 				vQ = 0; // количество вертикально оринтироварованных изображений
 				hQ = 0; // количество горизонтально оринтироварованных изображений
 				for (var i = 0; i<row.length; i++) {
@@ -88,6 +87,7 @@
 					height = (row[i].height<height) ? row[i].height : height;
 				}
 				
+				
 				var remainder = cW - (baseWidth*hQ+vertWidth*vQ+(hQ+vQ-1)*config.spc); // остаток пикселей для распределения между div'ами
 								
 				var allAdd = Math.floor(remainder/row.length); // остаток, распределяемый между всеми div'ами
@@ -100,18 +100,23 @@
 					if (!last) width += (addAdd > 0) ? allAdd+1 : allAdd;
 					addAdd--;
 					
-					var folioItem = '<a href="" class="folioItem" style="height: ' + height + 'px; top: ' + top + 'px; left: ' + left + 'px;"><img src="' + row[i].src + '" style="width: ' + width + 'px;"></a>';
+					var folioItem =  '<a href="" class="folioItem" style="height: ' + height + 'px;  width: ' + width + 'px; top: ' + top + 'px; left: ' + left + 'px; display:none;">';
+					folioItem += '<img src="' + row[i].src + '" style="width: ' + width + 'px;">';
+					folioItem += '</a>';
 					
 					$('#folio').append(folioItem);
+					$('.folioItem').fadeIn('slow', function() {});
 					left += width+config.spc;
 				}
-				
+				$('.folioItem').fadeIn('slow', function() {});
 				top += height+config.spc;
 				$('#folio').css('height', top+'px'); 
 			}
 		}
 		var с = $(this[0]);
 		$(window).resize(function(){
+			$(".folioItem").fadeOut();
+			var imgs = $(".folioItem").remove();
 			render();
 		});
 		render();
