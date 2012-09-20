@@ -1,0 +1,212 @@
+﻿{
+	"welcome" : {
+		"title" : "Бобро поржаловать, или посторонним здесь тоже всегда рады!",
+		"text" : "<p>Меня зовут Фа. Не та, которая «до», «ре», «ми», «фа». Хотя музыку я люблю. Очень. Пожалуй, больше чем музыку я люблю только картинки. Ну, вы помните: «Алиса любила книжки с картинками, или, на худой конец с разговорами».</p><p>Так сложилось, что мои картинки - это фотографии. А поскольку родители в свое время пожадничали и не купили мне электрогитару, то и моя музыка это тоже картинки. То есть фотографии, да. Потому что, я так вижу, также и слышу, и так же снимаю. Ну, или пытаюсь. Вы, в принципе можете чуть ниже посмотреть как. </p><p>Изображение живого человека, как джем-сейшн. Поэтому никаких «улыбнитесь, Вас снимает скрытая камера», никаких «замри - я снимаю», никаких «сейчас отсюда вылетит птичка». Полет фантазии, легкая импровизация приятная всем участникам действа. Если получилось, оно гораздо интереснее сотню раз повторенных гамм. И я искренне верю, что, уж, попробовать, по крайней мере, стоит. </p><p>Если вы хотите сыграть вместе, давайте сначала познакомимся. Конечно, пробовать можно и так. Что нам стоит. Но вдруг и мне и вам так окажется проще. Импровизация импровизацией, но репетиции-то никто не отменял.</p>"
+	},
+	"contact" : {
+		"title" : "За связь без брака!", 
+		"text"  : ""
+	},
+	"blog" : {
+		"title" : "Блоггер блоггеру like не выклюет!", 
+		"posts" :	[
+			{
+				"title" : "",
+				"date"  : "1346664349",
+				"text"  : "<p>Уже два года, два долгих года идет бесконечный дождь.<br />А может быть, просто рисует кто-то капли на моем окне.<br />От этой сырости гибнут книги, вырастают цветы на стене...<br />И, Боже мой, как одиноки те, кто приходят ко мне! (с)</p>",
+				"pics"   : [
+					{
+						"src"    : "i/photo/blog/1346664349/1.jpg",
+						"width"  : 400,
+						"height" : 267
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346664349/2.jpg",
+						"width"  : 400,
+						"height" : 267
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346664349/3.jpg",
+						"width"  : 400,
+						"height" : 267
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346664349/4.jpg",
+						"width"  : 400,
+						"height" : 267
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346664349/5.jpg",
+						"width"  : 400,
+						"height" : 267
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346664349/6.jpg",
+						"width"  : 266,
+						"height" : 400
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346664349/7.jpg",
+						"width"  : 400,
+						"height" : 267
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346664349/8.jpg",
+						"width"  : 400,
+						"height" : 267
+					}
+				] 
+			}, {
+				"title" : "",
+				"date"  : "1346668623",
+				"text"  : "<p>Come as you are, as you were,<br />As I want you to be<br />s a friend, as a friend, as an old enemy.<br />Take your time, hurry up<br />The choice is yours, don't be late.<br />Take a rest as a friend as an old memoria Memoria</p>",
+				"pics"   : [
+					{
+						"src"    : "i/photo/blog/1346668623/1.jpg",
+						"width"  : 400,
+						"height" : 267
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346668623/2.jpg",
+						"width"  : 262,
+						"height" : 400
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346668623/3.jpg",
+						"width"  : 400,
+						"height" : 267
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346668623/4.jpg",
+						"width"  : 262,
+						"height" : 400
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346668623/5.jpg",
+						"width"  : 400,
+						"height" : 274
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346668623/6.jpg",
+						"width"  : 400,
+						"height" : 267
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346668623/7.jpg",
+						"width"  : 400,
+						"height" : 267
+					}, 
+					{
+						"src"    : "/i/photo/blog/1346668623/8.jpg",
+						"width"  : 400,
+						"height" : 267
+					},
+					{
+						"src"    : "/i/photo/blog/1346668623/8.jpg",
+						"width"  : 266,
+						"height" : 400
+					}
+				] 
+			}
+		]
+	},
+	"folio" : {
+		"title" : "Музейные ценности руками не трогать!", 
+		"pics"  : [
+			{ "src" : "/i/photo/folio/m/1.jpg", "width" : "262", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/2.jpg", "width" : "400", "height" : "266" },
+			{ "src" : "/i/photo/folio/m/3.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/4.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/5.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/6.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/7.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/8.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/9.jpg", "width" : "400", "height" : "274" },
+			{ "src" : "/i/photo/folio/m/10.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/11.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/12.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/13.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/14.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/15.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/16.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/17.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/18.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/19.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/20.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/21.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/22.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/23.jpg", "width" : "400", "height" : "278" },
+			{ "src" : "/i/photo/folio/m/24.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/25.jpg", "width" : "400", "height" : "287" },
+			{ "src" : "/i/photo/folio/m/26.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/27.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/28.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/29.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/30.jpg", "width" : "400", "height" : "266" },
+			{ "src" : "/i/photo/folio/m/31.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/32.jpg", "width" : "274", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/33.jpg", "width" : "273", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/34.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/35.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/36.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/37.jpg", "width" : "270", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/38.jpg", "width" : "264", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/39.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/40.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/41.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/42.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/43.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/44.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/45.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/46.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/47.jpg", "width" : "400", "height" : "268" },
+			{ "src" : "/i/photo/folio/m/48.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/49.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/50.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/51.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/52.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/53.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/54.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/55.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/56.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/57.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/58.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/59.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/60.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/61.jpg", "width" : "269", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/62.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/63.jpg", "width" : "400", "height" : "273" },
+			{ "src" : "/i/photo/folio/m/64.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/65.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/66.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/67.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/68.jpg", "width" : "400", "height" : "271" },
+			{ "src" : "/i/photo/folio/m/69.jpg", "width" : "267", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/70.jpg", "width" : "400", "height" : "263" },
+			{ "src" : "/i/photo/folio/m/71.jpg", "width" : "400", "height" : "285" },
+			{ "src" : "/i/photo/folio/m/72.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/73.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/74.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/75.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/76.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/77.jpg", "width" : "400", "height" : "281" },
+			{ "src" : "/i/photo/folio/m/78.jpg", "width" : "400", "height" : "290" },
+			{ "src" : "/i/photo/folio/m/79.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/80.jpg", "width" : "400", "height" : "254" },
+			{ "src" : "/i/photo/folio/m/81.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/82.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/83.jpg", "width" : "400", "height" : "271" },
+			{ "src" : "/i/photo/folio/m/84.jpg", "width" : "400", "height" : "271" },
+			{ "src" : "/i/photo/folio/m/85.jpg", "width" : "271", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/86.jpg", "width" : "400", "height" : "271" },
+			{ "src" : "/i/photo/folio/m/87.jpg", "width" : "400", "height" : "271" },
+			{ "src" : "/i/photo/folio/m/88.jpg", "width" : "400", "height" : "271" },
+			{ "src" : "/i/photo/folio/m/89.jpg", "width" : "400", "height" : "271" },
+			{ "src" : "/i/photo/folio/m/90.jpg", "width" : "400", "height" : "271" },
+			{ "src" : "/i/photo/folio/m/91.jpg", "width" : "400", "height" : "267" },
+			{ "src" : "/i/photo/folio/m/92.jpg", "width" : "275", "height" : "400" },
+			{ "src" : "/i/photo/folio/m/93.jpg", "width" : "267", "height" : "400" }
+		]
+	}
+		
+}		
