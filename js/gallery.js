@@ -14,9 +14,10 @@
 		* }
 		*
 		********************************************/		
-		var VcH = $(window).height() - $(this[0]).offset().top; // высота видимой части контейнера
-		var cW = $(this[0]).width(); // ширина контейнера (должна передаваться в конструктор)
-		cW--;
+		//var VcH = $(window).height() - $(this[0]).offset().top; // высота видимой части контейнера
+		//var cW = $(this[0]).width(); // ширина контейнера (должна передаваться в конструктор)
+		//cW--;
+		var container = $(this[0]);
 		this.config = $.extend({
 			minW : 300,  // минимальная ширина изображения
 			maxW : 400,  // максимальная ширина изображения
@@ -25,6 +26,7 @@
 			fLine: false //
 		}, config);
 		config = this.config;
+		
 		var sImages = []; // массив размеров для сортировки
 		for (var i = 0; i<config.Images.length; i++) {
 			sImages.push({width: config.Images[i].width, height: config.Images[i].height});
@@ -41,13 +43,20 @@
 		
 		var render = function() {
 			
+			var cW = container.width();
+			var VcH = $(window).height() - container.offset().top;
 			
 			var maxQ = Math.floor((cW-(Math.floor(cW/config.minW-1)*config.spc))/config.minW); // максимальное количество горизонтально ориентированных изображений влезающее в строку
 			var rowN = 0;
 			var top = 0;
 			var prevIndex = 0;
+			
+			var renderLine = function () {
+			
+			}
+			
 			while (prevIndex < (config.Images.length-1)) {
-				console.log(prevIndex);
+				
 				rowN++;
 				var prevRowQ = 0; // длина предыдущей строки
 				var curRowQ = 0; // длина текущей строки
@@ -87,7 +96,6 @@
 					height = (row[i].height<height) ? row[i].height : height;
 				}
 				
-				
 				var remainder = cW - (baseWidth*hQ+vertWidth*vQ+(hQ+vQ-1)*config.spc); // остаток пикселей для распределения между div'ами
 								
 				var allAdd = Math.floor(remainder/row.length); // остаток, распределяемый между всеми div'ами
@@ -105,12 +113,13 @@
 					folioItem += '</a>';
 					
 					$('#folio').append(folioItem);
-					$('.folioItem').fadeIn('slow', function() {});
+					$('.folioItem:last').fadeIn(2000, function() {});
 					left += width+config.spc;
 				}
-				$('.folioItem').fadeIn('slow', function() {});
+				
 				top += height+config.spc;
 				$('#folio').css('height', top+'px'); 
+				if (top > VcH) break;
 			}
 		}
 		var с = $(this[0]);
